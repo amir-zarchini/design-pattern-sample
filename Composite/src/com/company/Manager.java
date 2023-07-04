@@ -56,13 +56,6 @@ public class Manager implements Employee{
             Employee employee = employeeIterator.next();
             employee.print();
         }
-
-        employeeList.forEach(employee -> {
-            System.out.println("name: " + employee.getName()
-                    + " | salary: " + employee.getSalary()
-                    + " | position: " + employee.getPosition());
-            System.out.println("----------------------------------------------");
-        });
     }
 
 }
