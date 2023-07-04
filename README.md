@@ -1,6 +1,6 @@
 # design-pattern-sample
 
-## refrence
+## reference
 
 1. https://www.tutorialspoint.com/design_pattern/index.htm
 2. https://www.javatpoint.com/design-patterns-in-java
