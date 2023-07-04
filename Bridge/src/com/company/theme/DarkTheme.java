@@ -1,6 +1,6 @@
-package com.company;
+package com.company.theme;
 
-public class DarkTheme implements Theme{
+public class DarkTheme implements Theme {
 
     @Override
     public String getColor() {

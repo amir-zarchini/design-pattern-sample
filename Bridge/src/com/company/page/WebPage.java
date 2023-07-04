@@ -1,4 +1,6 @@
-package com.company;
+package com.company.page;
+
+import com.company.theme.Theme;
 
 public abstract class WebPage {
 
@@ -8,5 +10,5 @@ public abstract class WebPage {
         this.theme = theme;
     }
 
-    abstract String getPage();
+    public abstract String getPage();
 }
