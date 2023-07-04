@@ -2,6 +2,7 @@ package com.company;
 
 public class FactoryProducer {
 
+    @Override
     public static AbstractFactory getFactory(String factoryType){
         if (factoryType.equalsIgnoreCase("shape_factory")) {
             return new ShapeFactory();
