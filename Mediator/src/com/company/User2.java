@@ -4,8 +4,9 @@ public class User2 extends Participation{
     ChatRoom chatRoom;
     String name;
 
-    public User2(ChatRoom chatRoom) {
+    public User2(ChatRoom chatRoom, String name) {
         this.chatRoom = chatRoom;
+        this.name = name;
     }
 
     @Override
@@ -13,10 +14,6 @@ public class User2 extends Participation{
         chatRoom.showMessage(message,this);
     }
 
-    @Override
-    public void setName(String name) {
-        this.name = name;
-    }
 
     @Override
     public String getName() {
